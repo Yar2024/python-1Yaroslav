@@ -7,20 +7,23 @@
 #Я не розумію чому воно не працює як треба
 #################################
 
-#from random import randint
-#rand_value=randint(1,12)
-#months = {
- #   1: "January",
- # 3: "March",
-  ## 6: "June",
-   # 7: "July",
-  #  8: "August",
-  #  9: "September",
-  #  10: "October",
-  #  11: "November",
-  #  12: "December"
-}
-#random_months_number = randint(1, 12)
-##print(f"{random_months_number} - {month_name}") працює
 
-#останю задачу я не розумію
+from random import randint
+rand_value=randint(1,12)
+months = {
+    1: "January",
+    2: "February",
+    3: "March",
+    4: "April",
+    5: "May",
+    6: "June",
+    7: "July",
+    8: "August",
+    9: "September",
+    10: "October",
+    11: "November",
+    12: "December"
+}
+random_months_number = randint(1, 12)
+month_name = months[random_months_number]
+print(f"{random_months_number} - {month_name}")
