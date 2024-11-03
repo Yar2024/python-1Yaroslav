@@ -6,4 +6,4 @@
 #while input==rand_value: user_input=print("You won!")
 #Я не розумію чому воно не працює як треба
 #################################
-from random import randint
+f
